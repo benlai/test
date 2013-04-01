@@ -15,6 +15,7 @@
 		B5D33FBA1709269C00D82F7A /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = B5D33FB91709269C00D82F7A /* AppDelegate.m */; };
 		B5D33FBD1709269C00D82F7A /* MainStoryboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B5D33FBB1709269C00D82F7A /* MainStoryboard.storyboard */; };
 		B5D33FC01709269C00D82F7A /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B5D33FBF1709269C00D82F7A /* ViewController.m */; };
+		B5D33FF817092D2100D82F7A /* testViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B5D33FF717092D2100D82F7A /* testViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -31,6 +32,8 @@
 		B5D33FBC1709269C00D82F7A /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = en.lproj/MainStoryboard.storyboard; sourceTree = "<group>"; };
 		B5D33FBE1709269C00D82F7A /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
 		B5D33FBF1709269C00D82F7A /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		B5D33FF617092D2100D82F7A /* testViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = testViewController.h; sourceTree = "<group>"; };
+		B5D33FF717092D2100D82F7A /* testViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = testViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -82,6 +85,8 @@
 				B5D33FBB1709269C00D82F7A /* MainStoryboard.storyboard */,
 				B5D33FBE1709269C00D82F7A /* ViewController.h */,
 				B5D33FBF1709269C00D82F7A /* ViewController.m */,
+				B5D33FF617092D2100D82F7A /* testViewController.h */,
+				B5D33FF717092D2100D82F7A /* testViewController.m */,
 				B5D33FB01709269C00D82F7A /* Supporting Files */,
 			);
 			path = test;
@@ -164,6 +169,7 @@
 				B5D33FB61709269C00D82F7A /* main.m in Sources */,
 				B5D33FBA1709269C00D82F7A /* AppDelegate.m in Sources */,
 				B5D33FC01709269C00D82F7A /* ViewController.m in Sources */,
+				B5D33FF817092D2100D82F7A /* testViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -279,6 +285,7 @@
 				B5D33FC51709269C00D82F7A /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
